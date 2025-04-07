@@ -11,7 +11,6 @@ Scenario Outline: Check out the product from the cart
 		|India  |
 		And Cliks the check out button
 		Then the user should go to the check out page
-		
 Examples:
     | username         | password | message                            |
     | gayu3@gmail.com  | 123456   | Welcome to the new Tricentis store!|
